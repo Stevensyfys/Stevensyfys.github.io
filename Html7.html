@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+		table,th,td{
+			border: 1px solid black;
+			border-radius: 20px;
+		}
+		h1{
+			color: red;
+			border: 1px solid balck;
+			background-color: skyblue;
+			padding-left: 50px;
+		}
+		body{
+		}
+		th:hover{
+            background-color: green;
+            color: lightgreen;
+		}
+		td:hover{
+			background-color: blue;
+			color: red;
+		}
+		#tony:hover{
+			background-color: white;
+			color: gray;
+		}
+		.number:hover{
+			background-color: orange;
+			color: pink;
+		}
+		.id:hover{
+			background-color: purple;
+			color: orange;
+		}
+		ol li{
+			font-family: cursive;
+		}
+		*{
+			font-size: 30px;
+		}
+		tr{
+			text-decoration:underline ;
+		}
+		ul{
+			list-style: none;
+		}
+		ul li{
+			font-family: cursive;
+		}
+		h1{
+			text-shadow: 10px 2px 10px purple;
+		}
+		a{
+			border: 1px solid black;
+			text-decoration: none;
+			background-color: black;
+			color: white;
+		}
+		a:hover{
+			background-color: white;
+			color:black;
+		}
+		#nav{
+			margin-left: -8px;
+			margin-top: -8px;
+		}
+		.m{
+			margin-left:-3px;
+		}
+		.col{
+			width: 45%;
+			float: left;
+			margin-left: 50px;
+		}
+		#one{
+			background-color: yellow;
+			height: 100px;
+			width: margin-bottom: 200px;
+		}
+		#two{
+			background-color: yellow;
+			height: 100px;
+			width: margin-bottom: 200px;
+		}
+		</style>
+</head>
+<body onload="abc()">
+	<center>
+<div id='nav'>
+	<a href="Html7.html">Home</a>
+	<a class="m" href="Html8.html">Intro</a>
+	<a class="m" href="Html8.html">Contact</a>
+	<a class="m" href="Html8.html">Register</a>
+</div>
+</center>
+	<center><h1>This is my website.</h1></center>
+	<p class="pa">First</p>
+<p class="pa">Second</p>
+<p class="pa">Third</p>
+<input type="text" name="firstname" id="input1" value="">
+<button onclick="change()">class change</button>
+<input type='text' name='firstname' id='input1' value=''>
+<button onclick='change1()'>name change</button>
+<input type="text" name="sum" id="input2" value="">
+<button onclick="change2()">sum change</button>
+	<button onclick="play()">Start page</button>
+	<button onclick="guess()">Start game</button>
+	<img id="img" height="50px" width="50px" src="https://jamesqquick.com/images/posts/announcing-advent-of-javascript-a-free-series-of-javascript-challenges/cover.png">
+	<button onclick="big()">Click to change img</button>
+	<button onclick="back()">Click to turn back</button>
+	<p id="test">Hi, everyone</p>
+	<p id="test2"></p>
+	<button onclick="remove()">click to remove</button>
+	<button onclick="color()">click to change color</button>
+	<button onclick="seedate()">click to see Date</button>
+	<table>
+	<tr>
+	<th>ID</th>
+	<th>Name</th>
+	<th>Age</th>
+</tr>
+<tr>
+	<td>001</td>
+	<td id= tony>Tony</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>002</td>
+	<td>Alice</td>
+	<td>13</td>
+</tr>
+</table>
+<ol>
+	<li>tony</li>
+	<li>join</li>
+</ol>
+<ul>
+	<li>tony</li>
+	<li>john</li>
+</ul>
+
+<form action="123.php">
+	<label>Sports:</label>
+	<select>
+		<option>Basketball</option>
+		<option>Soccer</option>
+		<option>Tennis</option>
+	</select>
+	<label>Name:</label>
+	<input type="text" name="name"><br>
+    <label>Password:</label>
+    <input type="text" name="password"><br>
+    <label>Email:</label>
+    <input type="text" name="email"><br>
+    <label>Gender:</label>
+    <input type="radio" name="gender">
+    <label name="Male">Male</label>
+    <input type="radio" name="gender">
+    <label name="Female">Female</label><br>
+    <label>Date of Birth</label>
+    <input type="date" name="dob">
+    <label>Favorite colour:</label>
+    <input type="color" name="color"><br>
+    <label>File:</label>
+    <input type="file" name="file"><br>
+    <label>Email</label>
+    <input type="email" name=""><br>
+    <label>Budget</label>
+    <input type="range" name="" min='0', max='100' step='1' value="50"><br>
+    <label>Sport:</label>
+    <input type="checkbox" name="basketball">
+    <label>basketball</label>
+    <input type="checkbox" name="soccer">
+    <label>soccer</label>
+    <input type="checkbox" name="tennis">
+    <label>tennis</label><br>
+    <input type="submit" name="Submit"><br>
+</form>
+<div class="col">
+	<div id="one">
+	
+</div>
+<div id="two">
+	<img src="https://cdn.cdnparenting.com/articles/2018/04/18110008/Ugly-Duckling.webp">
+</div>
+</div>
+<div class="col">
+	<h2>JS</h2>
+	<p>JavaScript</p>
+</div>
+
+</body>
+</html>
