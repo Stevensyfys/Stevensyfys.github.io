@@ -72,52 +72,53 @@ h4{
 .S1{
     color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S2{
     color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S3{
     color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S4{
 	color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S5{
 	color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S6{
 	color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S7{
 	color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S8{
 	color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
 .S9{
 	color: black;
 	font-size: 28px;
+	font-family: cursive;
 }
-.abc{
-    width: 45%;
-    float: left;
-    margin-left: 45px;
- }
- .efg{
- 	width: 45%;
- 	float: right;
- 	margin-right: 45px;
- }
- .T2{
+
+.T2{
  	color: black;
  	font-size: 30px;
+	font-family: cursive;
  }
 table th,td{
 border:1px solid black;
@@ -135,4 +136,9 @@ th:hover{
 td:hover{
 	background-color: blue;
 	color: white;
+}
+.SHA{
+    width: 33%;
+	float: left;
+	text-align: center;
 }
